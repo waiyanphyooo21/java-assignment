@@ -119,7 +119,7 @@ public class StudentManagementSystem {
             System.out.println("Total: " + total + ", Average: " + String.format("%.2f", avg));
         });
 
-        future.join(); // Wait for async task to finish before showing the menu again
+        future.join();
     }
 
     private static void searchStudent(Scanner sc) {
